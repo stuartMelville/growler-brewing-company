@@ -50,7 +50,6 @@ public class Ingredient implements Serializable {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "recipie_id", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
-    @JsonIgnore
     private Recipie recipie;
     
     
@@ -62,8 +61,6 @@ public class Ingredient implements Serializable {
 	public void setName(String name) {
 		Name = name;
 	}
-
-
 
 	public static long getSerialversionuid() {
 		return serialVersionUID;
