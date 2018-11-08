@@ -1,4 +1,4 @@
-package com.gbc.model;
+package com.gbc.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

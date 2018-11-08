@@ -1,0 +1,15 @@
+version: "3.5"
+
+services:
+  mysql-db:
+    image: mysql:5
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: test123
+      MYSQL_DATABASE: growler_brewing_collective
+    container_name: gbc-mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysql -ptest123 -e 'select 1'"]
+      interval: 5s
+      retries: 50

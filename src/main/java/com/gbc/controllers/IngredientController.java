@@ -1,4 +1,4 @@
-package com.gbc.controller;
+package com.gbc.controllers;
 
 import javax.validation.Valid;
 
@@ -7,11 +7,11 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
-import com.gbc.exception.ResourceNotFoundException;
-import com.gbc.model.Ingredient;
-import com.gbc.model.Ingredient.INGREDIENT_TYPE;
-import com.gbc.repository.IngredientRepository;
-import com.gbc.repository.RecipieRepository;
+import com.gbc.exceptions.ResourceNotFoundException;
+import com.gbc.models.Ingredient;
+import com.gbc.models.Ingredient.INGREDIENT_TYPE;
+import com.gbc.repositorys.IngredientRepository;
+import com.gbc.repositorys.RecipieRepository;
 
 @RestController
 @RequestMapping("/api")

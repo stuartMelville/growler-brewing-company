@@ -1,8 +1,8 @@
-package com.gbc.controller;
+package com.gbc.controllers;
 
-import com.gbc.exception.ResourceNotFoundException;
-import com.gbc.model.Recipie;
-import com.gbc.repository.RecipieRepository;
+import com.gbc.exceptions.ResourceNotFoundException;
+import com.gbc.models.Recipie;
+import com.gbc.repositorys.RecipieRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

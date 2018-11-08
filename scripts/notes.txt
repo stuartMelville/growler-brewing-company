@@ -1,0 +1,11 @@
+{
+   "name": "First Brew",
+   "mashTemperature": "67",
+   "mashVolume": "36",
+   "mashTime": "60"
+}
+
+{"name":"Marris Otter","ingredient_Type":"GRAIN"}
+{"name":"Wheat","ingredient_Type":"GRAIN"}
+
+
